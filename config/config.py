@@ -1,0 +1,2 @@
+BROWSER = "chromium"
+HEADLESS = True
