@@ -1,4 +1,3 @@
-
 class LoginPage:
 
     def __init__(self, page):
@@ -7,6 +6,9 @@ class LoginPage:
         self.username = "#username"
         self.password = "#password"
         self.login_button = "#login"
+
+    def open(self, url):
+        self.page.goto(url)
 
     def login(self, username, password):
         self.page.fill(self.username, username)
