@@ -5,7 +5,7 @@ class LoginPage:
 
         self.username = "#username"
         self.password = "#password"
-        self.login_button = "#login"
+        sself.login_button = "button[type='submit']"
 
     def open(self, url):
         self.page.goto(url)
